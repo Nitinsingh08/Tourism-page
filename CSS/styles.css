@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+    transition: 2s;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+
+/* HOME-PAGE */
+
+.home-page {
+    background-image: url(../images/pexels-belle-co-402028.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+ul li {
+    padding: 15px;
+}
+
+li a {
+    color: white !important;
+}
+
+
+/* HERO-SECTION */
+
+.hero {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    line-height: 2rem;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+
+/* ABOUT-SECTION */
+
+#info-section {
+    width: 100%;
+}
+
+.about-section {
+    padding: 40px 0px;
+}
+
+.about-row {
+    padding-bottom: 30px;
+}
+
+.about-photo-first {
+    height: 300px;
+    width: 450px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.description {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+
+/* GALLERY-SECTION */
+
+#gallery {
+    padding: 5% 15% 7%;
+}
+
+.gallery-heading {
+    padding-bottom: 3%;
+}
+
+.gallery-header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+
+/* THE IMAGE BLUR EFFECT WITH TEXT ON HOVER */
+
+
+/* The Div that contains the element is (blurdiv) ,image (bimg),text (blur-placename) */
+
+.blurdiv {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    transition: 0.8s;
+}
+
+.blurdiv .bimg {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.blurdiv:hover .bimg {
+    filter: blur(5px) brightness(90%);
+    box-shadow: 0 0 16px black;
+}
+
+.blurdiv :not(.bimg) {
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    top: 37%;
+    transition: 0.8s;
+    width: 90%;
+    opacity: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.blurdiv:hover :not(.img) {
+    opacity: 1;
+}
+
+
+/* choose your tour section */
+
+#tour-section {
+    padding: 5% 5% 7% 15%;
+}
+
+.tour-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.card {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    width: 22rem;
+}
+
+.join-btn {
+    text-decoration: none;
+    border: 3px solid;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+
+/* Review Page */
+
+.review-page {
+    text-align: center;
+    padding: 5% 10% 3%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.testimonial-text {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.testimonials-image {
+    height: 90px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 80%;
+}
+
+.slider {
+    color: black;
+}
+
+
+/* Footer section */
+
+#footer {
+    padding: 5% 8% 7% 12%;
+}
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.item {
+    color: inherit;
+    display: block;
+    margin: 4% 0 4% 0;
+}
+
+.item:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.adress {
+    padding-left: 4%;
+    vertical-align: middle;
+}
+
+
+/* THE IMAGE BLUR EFFECT WITH TEXT ON HOVER */
+
+
+/* textonimgwithblurr-div */
+
+
+/* blurr-image */
+
+
+/* .textonimgwithblurr {
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    margin: 10%;
+    position: relative;
+    transition: 0.3s;
+}
+
+.textonimgwithblurr .blurr {
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.textonimgwithblurr:hover .blurr {
+    filter: blur(4px) brightness(80%);
+    box-shadow: 0 0 16px black;
+}
+
+.textonimgwithblurr :not(.blurr) {
+    position: absolute;
+    text-align: center;
+    color: brown;
+    z-index: 1;
+    top: 34%;
+    width: 100%;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.textonimgwithblurr:hover :not(.blurr) {
+    opacity: 1;
+} */
